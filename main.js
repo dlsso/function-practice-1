@@ -47,3 +47,18 @@ var startsWithA = function(string) {
 }
 
 console.log("6. Run startsWithA('some string') to test")
+
+// Problem 7
+var excite = function(string) {
+	return string + "!!!";
+}
+
+console.log("7. Run excite('some string') to test")
+
+
+// Problem 8
+var sun = function(string) {
+	return string.indexOf("sun") !== -1;
+}
+
+console.log("8. Run sun('some string') to test")
