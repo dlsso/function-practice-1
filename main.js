@@ -31,3 +31,19 @@ var negate = function(x) {
 }
 
 console.log("4. Run negate(x) to test")
+
+
+// Problem 5
+var toArray = function(x, y, z) {
+	return [x, y, z];
+}
+
+console.log("5. Run toArray(a, b, c) to test")
+
+
+// Problem 6
+var startsWithA = function(string) {
+	return string.charAt(0).toLowerCase() == "a";
+}
+
+console.log("6. Run startsWithA('some string') to test")
