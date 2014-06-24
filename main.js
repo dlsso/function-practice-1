@@ -62,3 +62,22 @@ var sun = function(string) {
 }
 
 console.log("8. Run sun('some string') to test")
+
+
+// Problem 9
+var tiny = function(x) {
+	return x > 0 && x < 1;
+}
+
+console.log("9. Run tiny(x) to test")
+
+
+// Problem 10
+var getSeconds = function(string) {
+	var values = string.split(":");
+	var total = parseInt(values.shift())*60;
+	var total = total + parseInt(values.shift());
+	console.log(total);
+}
+
+console.log("10. Run getSeconds('MM:SS') to test")
